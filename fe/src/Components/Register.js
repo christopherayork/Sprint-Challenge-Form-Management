@@ -23,6 +23,7 @@ class RegisterForm extends React.Component {
     this.touched = props.touched;
     this.isSubmitting = props.isSubmitting;
     this.status = props.status;
+    this.addNums = (num1, num2) => num1 + num2;
   }
 
   render() {
@@ -31,7 +32,7 @@ class RegisterForm extends React.Component {
           <Form>
             <div>
               {this.touched.username && this.errors.username && <p>{this.errors.username}</p>}
-              <Field type='text' name='username' placeholder='Username' />
+              <Field data-testid='username' type='text' name='username' placeholder='Username' />
             </div>
             <div>
               {this.touched.password && this.errors.password && <p>{this.errors.password}</p>}
