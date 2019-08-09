@@ -26,13 +26,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What are the required parts of class components?
 
+- render() is required, and most likely constructor()
+
 - [ ] Name at least three lifecycle methods?
+
+- componentDidMount(), componentDidUpdate(), and componentWillUnmount()
 
 - [ ] Why are forms used so often in web applications and software?
 
+- They're one of the few ways to receive user input, which is vital in modern web tech
+
 - [ ] What advantages are there by using a forms library like Formik?
 
+- Once you setup the flow of Formik, adding functionality and making changes is much simpler
+
 - [ ] Why do we write tests for our apps?
+
+- To make sure our results remain as we update our code
 
 ## Project Set Up
 
